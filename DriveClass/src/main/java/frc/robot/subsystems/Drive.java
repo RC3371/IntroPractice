@@ -45,7 +45,7 @@ public class Drive extends Subsystem {
         }
 
     }
- 
+    //Quickturn
     public void QuickTurn(double turnValue){
         LMaster.set(ControlMode.PercentOutput, turnValue);
         RMaster.set(ControlMode.PercentOutput, turnValue);
